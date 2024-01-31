@@ -10,6 +10,11 @@ const getMedian = (array) => {
 }
 
 const getMode = (array) => {
+  const counts = {};
+  
+  array.forEach((el) => 
+    counts[el], counts[el]++
+  );
 
 }
 
